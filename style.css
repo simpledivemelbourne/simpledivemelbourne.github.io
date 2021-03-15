@@ -1,0 +1,234 @@
+.padi-course-heading h1 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-size: 3.7vw;
+  margin-top: 5%;
+}
+.padi-course-heading h2 {
+  color: black;
+  margin: 5% auto;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 5%;
+}
+
+#course--form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  margin: auto;
+  z-index: 1;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+.functionTabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3vw;
+}
+.functionTabs p {
+  font-size: 1rem;
+}
+
+.searchCourseContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#searchCourse {
+  width: 50%;
+}
+
+#addCourse {
+  background-color: white;
+  text-align: center;
+}
+
+.close-to-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card-bottom-buttons .btn--more {
+  padding: 5px 16px;
+  background-color: #F5F5F5;
+  color: #3C4043;
+  box-shadow: 1px 1px 4px black;
+  border: #3C4043;
+  border-radius: 10px;
+  width: 80px;
+}
+.card-bottom-buttons .btn--more:hover {
+  transform: scale(1.1);
+  background-color: #3C4043;
+  color: #F5F5F5;
+}
+.card-bottom-buttons .btn--more:hover .btn {
+  font-weight: bolder;
+  font-size: 120%;
+}
+.card-bottom-buttons .cardFunctions {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.card-bottom-buttons .cardFunctions i {
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+  box-shadow: 1px 1px 4px black;
+}
+.card-bottom-buttons .cardFunctions i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.padi-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.padi-cards .card {
+  min-width: 250px;
+  margin: 20px;
+  width: 29%;
+  opacity: 0.9;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 0px;
+  box-shadow: 1px 1px 4px black;
+}
+.padi-cards .card .card-text {
+  padding-bottom: 26px;
+}
+.padi-cards .card-top {
+  max-height: 200px;
+  overflow: hidden;
+}
+.padi-cards .card-top .card-img-top {
+  height: 250px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+}
+.padi-cards .card-top .card-img-top img {
+  height: 220px;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  background-color: black;
+  min-width: 350px;
+}
+
+.dropdown-item {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+.dropdown-item:hover {
+  font-weight: bold;
+}
+
+.bg-dark {
+  opacity: 0.8;
+  padding: 0px 16px;
+}
+
+.slogan > *,
+.landing button {
+  padding: 20px 20px;
+}
+
+.slogan h1 {
+  color: #F5E2C8;
+  margin: auto;
+  text-align: center;
+  font-size: 5.5vw;
+  text-shadow: 2px 2px 2px black;
+  padding-top: 30%;
+}
+
+.home-button {
+  margin: auto;
+  font-weight: 400;
+  font-size: 3vw;
+  display: block;
+  border-radius: 10px;
+  opacity: 0.8;
+  padding: 5px 20px !important;
+  margin-top: 40px;
+  box-shadow: 0 0 4px blue;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 20vh;
+}
+.home-button:hover {
+  font-weight: bolder;
+}
+
+.container {
+  width: fit-content;
+}
+
+.addCourse {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  max-width: 568px;
+}
+.addCourse #add {
+  padding: 5px 16px;
+  background-color: #F5F5F5;
+  color: #3C4043;
+  box-shadow: 1px 1px 4px black;
+  border: #3C4043;
+  border-radius: 10px;
+  width: 150px;
+}
+.addCourse #add:hover {
+  transform: scale(1.1);
+  background-color: #3C4043;
+  color: #F5F5F5;
+}
+.addCourse #add:hover .btn {
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Discover Scuba Diving",
+      "description": "Afraid? Take a try diving course with us",
+      "price": 100,
+      "image": "img/DSD.jpg",
+      "requirement": "No"
+    },
+    {
+      "id": 2,
+      "name": "PADI Open Water Diver",
+      "description": "Getting your first diving certification",
+      "price": 700,
+      "image": "img/DSD.jpg",
+      "requirement": "No"
+    },
+    {
+      "id": 3,
+      "name": "PADI Advanced Open Water Diver",
+      "description": "Deep down to 30 metre",
+      "price": 600,
+      "image": "img/DSD.jpg",
+      "requirement": "Open Water Diver"
+    },
+    {
+      "id": 4,
+      "name": "PADI Rescue Diver",
+      "description": "Deep down to 30 metre",
+      "price": 500,
+      "image": "img/DSD.jpg",
+      "requirement": "Advanced Open Water Diver"
+    },
+    {
+      "name": "Fifth item",
+      "description": "Afraid? Take a try diving course with us",
+      "price": 100,
+      "image": "img/DSD.jpg",
+      "requirement": "No",
+      "id": 5
+    },
+    {
+      "name": "PADI FFM Diver",
+      "description": "FF",
+      "price": 500,
+      "image": "img/DSD.jpg",
+      "requirement": "Advanced Open Water Diver",
+      "id": 6
+    },
+    {
+      "name": "AAA",
+      "description": "BBB",
+      "price": "111",
+      "image": "https://i.pinimg.com/originals/a4/30/bc/a430bcb9f931a2a7bcc7dd64ecfbb6a0.jpg",
+      "id": 7
+    }
+  ]
+}

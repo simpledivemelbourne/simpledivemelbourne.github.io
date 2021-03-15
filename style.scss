@@ -1,0 +1,104 @@
+@import "css/mixin";
+@import "css/padiCourses";
+@import "css/variables";
+
+.navbar{
+    z-index: 1; 
+}
+
+.navbar-dark .navbar-brand {
+    color:#fff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2rem;
+}
+
+.dropdown-menu{
+    background-color: black;
+    min-width: 350px;
+}
+
+.dropdown-item{
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    &:hover{
+        font-weight:bold;
+    }
+}
+// .my-bg{
+    // background-image: url("img/bg.png");
+    // background-position:center;
+    // background-repeat:no-repeat;
+    // background-size:cover;
+    // height:1220px;
+    // width:100%;
+    // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.35);
+    // font-family: sans-serif, Helvetica, Arial;
+    // object-fit: contain;
+// }
+
+.bg-dark{
+    opacity: 0.8;
+    padding: 0px 16px;
+}
+
+.slogan>* ,
+.landing button{
+    padding: 20px 20px;
+}
+.slogan{
+    h1{
+    color:#F5E2C8;
+    margin: auto;
+    text-align: center;
+    font-size: 5.5vw;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 30%;
+    }
+}
+
+.home-button{
+   margin:auto;
+   font-weight: 400;
+   font-size: 3vw;
+   display:block;
+   border-radius: 10px;
+   opacity: 0.8;
+   padding: 5px 20px !important;
+   margin-top: 40px;
+   box-shadow: 0 0 4px blue; 
+   text-shadow: 2px 2px 2px black;
+   margin-bottom: 20vh;
+   
+
+   &:hover{
+       font-weight: bolder;
+   }
+}
+
+.container{
+    width: fit-content;
+}
+
+.addCourse{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    max-width: 568px;
+
+    #add{
+        @include defaultButton(150px)
+    }
+}
+

@@ -1,0 +1,142 @@
+@import "variables";
+
+// Below for padiCourse.html
+
+
+
+.padi-course-heading {
+
+    h1 {
+        color: black;
+        margin: auto;
+        text-align: center;
+        font-size: 3.7vw;
+        // text-shadow: 2px 2px 2px black;
+        margin-top: 5%;
+    }
+
+    h2 {
+        color: black;
+        margin: 5% auto;
+        text-align: center;
+        font-size: 2.5vw;
+        // text-shadow: 2px 2px 1px black;
+        margin-top: 5%;
+    }
+
+}
+
+#course--form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    margin: auto;
+    z-index: 1;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid grey;
+}
+
+.functionTabs {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vw;
+    p {
+        font-size: 1rem;
+    }
+}
+
+.searchCourseContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#searchCourse {
+    width: 50%;
+}
+
+#addCourse {
+    background-color: white;
+    text-align: center;
+}
+
+.close-to-bottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.card-bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .btn--more {
+        @include defaultButton(80px)
+    }
+
+
+    .cardFunctions {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+        i {
+            font-size: 1.5rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0.3rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 5px;
+            box-shadow: 1px 1px 4px black;
+
+            &:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.padi-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .card {
+        min-width: 250px;
+        margin: 20px;
+        width: 29%;
+        opacity: 0.9;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        border: 0px;
+        box-shadow: 1px 1px 4px black;
+
+        .card-text {
+            padding-bottom: 26px;
+            // margin-bottom: 16px;
+        }
+    }
+
+    .card-top {
+        max-height: 200px;
+        overflow: hidden;
+
+        .card-img-top {
+            height: 250px;
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 20px 20px 0px 0px;
+
+            img {
+                height: 220px;
+            }
+        }
+    }
+}
